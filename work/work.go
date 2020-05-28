@@ -2,7 +2,7 @@
 * @Author: scottxiong
 * @Date:   2020-05-26 20:55:30
 * @Last Modified by:   scottxiong
-* @Last Modified time: 2020-05-28 17:26:50
+* @Last Modified time: 2020-05-28 21:38:28
  */
 package work
 
@@ -38,7 +38,7 @@ func Run() {
 		ctx += "type " + tb_name + " struct {\n"
 
 		for _, field := range table.Fields {
-			ctx += fs.Tab(4) + str.FirstLetterToUpper(field.Name, 1) + " " + field.Type + "\n"
+			ctx += fs.Tab(4) + str.FirstLetterToUpper(field.Name, 1) + " " + field.Type + "`json: \"" + field.Name + "\"`\n"
 		}
 		ctx += "}\n\n"
 
