@@ -1,8 +1,8 @@
 # gapi
 
-Generate API for your golang project automaticly
+For fast Generating API for your golang project.
 
-### how to use
+### How to use ?
 
 1. install
 
@@ -10,12 +10,12 @@ Generate API for your golang project automaticly
 $ go install github.com/scott-x/gapi
 ```
 
-2. create a sql file which is named `temp.sql` in your under your project
+2. create a file named `temp.sql` in your project
 
 3. run command `gapi`
 
 ```sh
-scottxiong ~ $ gapi
+scott ~ $ gapi
 info: db/user.go was created
 info: db/video_info.go was created
 info: db/comment.go was created
