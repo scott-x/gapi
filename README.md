@@ -7,12 +7,16 @@ Generate API for your golang project automaticly
 1. install
 
 ```
-go install go install github.com/scott-x/gapi
+$ go install github.com/scott-x/gapi
 ```
 
 2. create a sql file which is named `temp.sql` in your under your project
 
 3. run command `gapi`
 
-
-![](./ref.png)
+```sh
+scottxiong ~ $ gapi
+info: db/user.go was created
+info: db/video_info.go was created
+info: db/comment.go was created
+```
