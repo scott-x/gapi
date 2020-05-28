@@ -1,0 +1,4 @@
+*.sql
+example
+db
+.DS_Store
